@@ -36,15 +36,17 @@ toSnakeCase = toCharacterCase '_'
 
 toSpinalCase = toCharacterCase '-'
 
-fromCamelCase :: [Char] -> [[Char]]
+--fromCamelCase :: [Char] -> [[Char]]
+fromCamelCase :: String -> [String]
 fromCamelCase = splitBy isUpper
 
 fromSnakeCase = fromCharacterCase '_'
 
 fromSpinalCase = fromCharacterCase '-'
 
-toCharacterCase c cs = concat (intersperse [c] (map (map toLower) cs))
+toCharacterCase c cs = intercalate [c] (map (map toLower) cs)
 
+--toCharacterCase c cs = concat (intersperse [c] (map (map toLower) cs))
 fromCharacterCase c cs = head' ++ map tail tail'
   where
     (head', tail') = splitAt 1 cs'
@@ -53,5 +55,5 @@ fromCharacterCase c cs = head' ++ map tail tail'
 splitBy :: (b -> Bool) -> [b] -> [[b]]
 splitBy p = groupBy (const (not . p))
 
-convertCase :: WordCase -> WordCase -> [Char] -> [Char]
+convertCase :: WordCase -> WordCase -> String -> String
 convertCase c1 c2 = toCase c2 . fromCase c1
