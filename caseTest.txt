@@ -1,0 +1,2 @@
+hereIs SomeCamelCase forThe programTo processAndSplitUp
+
