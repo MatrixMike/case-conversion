@@ -20,7 +20,7 @@ test3 =
 
 main :: IO (Counts, ShowS)
 main = do
-  putStrLn "starting -> please supply input..."
+--  putStrLn "starting -> please supply input..."
    runTestText (putTextToShowS) (TestList [test1, test2, test3])
 --main = runTestTT $ TestList [test1,test2,test3]
-   putStrLn "finished."
+--   putStrLn "finished."
