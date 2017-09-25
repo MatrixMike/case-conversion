@@ -65,3 +65,10 @@ splitBy p = groupBy (const (not . p))
 
 convertCase :: WordCase -> WordCase -> String -> String
 convertCase c1 c2 = toCase c2 . fromCase c1
+
+{-  in cabal repl
+:browse
+:info toCamelCase
+ (toCamelCase (fromSnakeCase "hello_my_very_good_world"))
+ -}
+ 

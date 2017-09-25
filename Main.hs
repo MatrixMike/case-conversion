@@ -4,5 +4,7 @@ module Main where
 import Text.CaseConversion
 
 main :: IO()
-main = interact (unlines . map  (toCase Snake . fromCase Camel)  . lines ) 
-
+main = do
+  putStrLn "starting -> please supply input..."
+  interact (unlines . map  (toCase Snake . fromCase Camel)  . lines ) 
+  putStrLn "finishing..."

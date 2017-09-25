@@ -19,5 +19,8 @@ test3 =
   assertEqual "test3" "helloWorld" (convertCase Snake Camel "hello_world")
 
 main :: IO (Counts, ShowS)
-main = runTestText (putTextToShowS) (TestList [test1, test2, test3])
+main = do
+  putStrLn "starting -> please supply input..."
+   runTestText (putTextToShowS) (TestList [test1, test2, test3])
 --main = runTestTT $ TestList [test1,test2,test3]
+   putStrLn "finished."

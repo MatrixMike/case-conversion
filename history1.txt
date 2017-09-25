@@ -1,0 +1,1000 @@
+ 1026  testmh-exe 
+ 1027  cd testmh/
+ 1028  ls -lctrh
+ 1029  tree
+ 1030  stack build
+ 1031  git status
+ 1032  git add app/Main.hs && git commit -m "type signatures"
+ 1033  stack build
+ 1034  stack install
+ 1035  testmh-exe 
+ 1036  stack install
+ 1037  testmh-exe 
+ 1038  stack install
+ 1039  git add app/Main.hs && git commit -m "type signatures2"
+ 1040  stack install
+ 1041  testmh-exe 
+ 1042  git status
+ 1043  git add app/Main.hs && git commit -m "type signatures3"
+ 1044  git status
+ 1045  git add outputB.hs && git commit -m "hlint help"
+ 1046  git status
+ 1047  hlint --help
+ 1048  hlint -routputB.html outputB.hs 
+ 1049  ls -lctrh
+ 1050  cd ~/stackHaskelltest/app/
+ 1051  hlint Main.hs -rMain.html
+ 1052  ls -lctrh
+ 1053  hlint 
+ 1054  cd ..
+ 1055  hlint Main.hs -rMain.html
+ 1056  hlint backwards.hs -rbackwards.html
+ 1057  ls -lctrh
+ 1058  cd ~?
+ 1059  cd ~/
+ 1060  git clone https://github.com/MatrixMike/proplang.git
+ 1061  cd proplang/
+ 1062  stack build
+ 1063  tree
+ 1064  cd ~/proplang/
+ 1065  ls -lctrh
+ 1066  cd ~/Haskell/learnyouahaskell/
+ 1067  ls -lctrh
+ 1068  git pull
+ 1069  git status
+ 1070  cd ~/proplang/
+ 1071  git pull
+ 1072  stack build
+ 1073  git status
+ 1074  stack clean && stack build
+ 1075  tree
+ 1076  cat push.bat 
+ 1077  cat connected.glade 
+ 1078  cat push.bat 
+ 1079  tree
+ 1080  cat connected.hs 
+ 1081  geany connected.hs &
+ 1082  git status
+ 1083  gitk&
+ 1084  git status
+ 1085  tree
+ 1086  cat hs-log1.txt 
+ 1087  tree
+ 1088  cat make.bat 
+ 1089  ./make
+ 1090  chmod +rew make.bat 
+ 1091  chmod --help
+ 1092  chmod +555   make.bat 
+ 1093  ls -lc
+ 1094  ./make.bat 
+ 1095  cat make.bat 
+ 1096  ghc --make Sample -package gtk
+ 1097  ghc --make Sample -package gtk  -v
+ 1098  tree
+ 1099  git status
+ 1100  cat proplang.cabal 
+ 1101  cat Sample.hs 
+ 1102  hlint -rSample.html Sample.hs 
+ 1103  hlint --help
+ 1104  history | grep hlint
+ 1105  hlint -rSample.html Sample.hs 
+ 1106  ls -lctrh
+ 1107  git status
+ 1108  git add connected.hs make.bat Sample.html 
+ 1109  git commit -m "small changes to improve workability"
+ 1110  git push
+ 1111  l s-lc
+ 1112  ls -lc
+ 1113  git status
+ 1114  git pull
+ 1115  cd ..
+ 1116  git status
+ 1117  git pull
+ 1118  ls -lctrh
+ 1119  stackHaskelltest-exe 
+ 1120  git pull
+ 1121  stack build
+ 1122  stack clean && stack build && stack install
+ 1123  stackHaskelltest-exe 
+ 1124  stack clean && stack build && stack install && stack test
+ 1125  stack test
+ 1126  tree
+ 1127  git pull
+ 1128  git status
+ 1129  tree
+ 1130  git pull
+ 1131  gpredict 
+ 1132  cd ~/
+ 1133  cd clojure18/
+ 1134  ls -lc
+ 1135  cd clojure-1.8.0/
+ 1136  ls -lc
+ 1137  cd ~/
+ 1138  cd ~/clojure
+ 1139  ls -lc
+ 1140  cd stringeye/
+ 1141  ls -lc
+ 1142  tree
+ 1143  lein uberjar 
+ 1144  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar 
+ 1145  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar  &
+ 1146  df -h
+ 1147  lein repl
+ 1148  lein uberjar 
+ 1149  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar  &
+ 1150  lein uberjar 
+ 1151  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar  &
+ 1152  lein uberjar 
+ 1153  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar  &
+ 1154  lein uberjar 
+ 1155  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar  &
+ 1156  git status
+ 1157  git add src/stringeye/core.clj 
+ 1158  git commit -m "after maths Saturday"
+ 1159  lein repl
+ 1160  lein uberjar 
+ 1161  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar 
+ 1162  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar &
+ 1163  lein uberjar 
+ 1164  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar &
+ 1165  tree
+ 1166  lein uberjar 
+ 1167  java -jar target/stringeye-0.1.2-SNAPSHOT-standalone.jar &
+ 1168  lein uberjar 
+ 1169  java -jar target/stringeye-0.1.3-SNAPSHOT-standalone.jar  &
+ 1170  git status
+ 1171  git add project.clj src/stringeye/core.clj && git commit -m "start of next version"
+ 1172  lein 
+ 1173  lein with-profile
+ 1174  lein classpath
+ 1175  lein test
+ 1176  tree
+ 1177  lein test
+ 1178  git status
+ 1179  git add project.clj src/stringeye/core.clj  test/stringeye/core_test.clj && git commit -m "start of next version2"
+ 1180  gitk &
+ 1181  lein uberjar 
+ 1182  java -jar target/stringeye-0.1.3-SNAPSHOT-standalone.jar  &
+ 1183  ifconfig 
+ 1184  git push
+ 1185  ifconfig 
+ 1186  git push
+ 1187  git pull
+ 1188  git push
+ 1189  cd ~/
+ 1190  git clone https://github.com/khanage/servant-workshop.git
+ 1191  cd servant-workshop/
+ 1192  ls -lctrh
+ 1193  stack build
+ 1194  stack install
+ 1195  stack clean && stack install
+ 1196  stack
+ 1197  stack build
+ 1198  stack clean
+ 1199  stack build
+ 1200  stack sdist
+ 1201  stack install yesod-bin
+ 1202  stack
+ 1203  stack update
+ 1204  stack upgrade
+ 1205  stack build
+ 1206  stack test
+ 1207  cd ~/
+ 1208  nix
+ 1209  git clone https://github.com/vaibhavsagar/notebooks.git
+ 1210  cd notebooks/
+ 1211  ls -lctrh
+ 1212  stack build
+ 1213  stack update
+ 1214  stack upgrade
+ 1215  stack build
+ 1216  stack test
+ 1217  stack sdist
+ 1218  tree
+ 1219  cd ~/
+ 1220  ls -lctrh
+ 1221  cd servant-workshop/
+ 1222  stack build
+ 1223  stack test
+ 1224  stack install yesod-bin
+ 1225  stack install 
+ 1226  gedit &
+ 1227  git status
+ 1228  stack install yesod-bin
+ 1229  yesod 
+ 1230  yesod --dev
+ 1231  ping electroteach.com
+ 1232  ifconfig 
+ 1233  ping electroteach.com
+ 1234  ifconfig 
+ 1235  cd ~/Haskell/
+ 1236  ghci 
+ 1237  stack exec --ghci
+ 1238  stack exec 
+ 1239  stack  install pointfree
+ 1240  ghci
+ 1241  cd ~/
+ 1242  gedit &
+ 1243  ls -lc
+ 1244  ls -lctrh
+ 1245  git pull
+ 1246  git var -l
+ 1247  gitk &
+ 1248  pointfree 
+ 1249  pointfree  --stdin
+ 1250  cd ~/Haskell/learning/compose2016/
+ 1251  ls -lctrh
+ 1252  cd ..
+ 1253  git status
+ 1254  cd ..
+ 1255  git status
+ 1256  git pull
+ 1257  ls -lctrh
+ 1258  rm *.o *.hi
+ 1259  ls -lctrh
+ 1260  ./graph1 
+ 1261  ls -lctrh
+ 1262  ./lists1 
+ 1263  ls -lctrh
+ 1264  ./Lyndon 
+ 1265  ./test6 
+ 1266  ./logic1 
+ 1267  cd learning/
+ 1268  ls -lctrh
+ 1269  ./learning1 
+ 1270  ls -lctrh
+ 1271  cd compose2016/
+ 1272  ls -lctrh
+ 1273  tree
+ 1274  cd ~/.local/bin/
+ 1275  ls -lc
+ 1276  cd Haskell/
+ 1277  git status
+ 1278  git pull
+ 1279  git status
+ 1280  ls -lc
+ 1281  rm lists1   test6
+ 1282  ls -lc
+ 1283  rm systemInterOp
+ 1284  ls -lc
+ 1285  rm logic1 Lyndon
+ 1286  ls -lc
+ 1287  ls graph1
+ 1288  ls -lc
+ 1289  rm graph1
+ 1290  ls -lc
+ 1291  git status
+ 1292  cd compose2017/
+ 1293  git status
+ 1294  git add tests1.hs 
+ 1295  git commit -m "mini mod"
+ 1296  git push
+ 1297  git status
+ 1298  cd .
+ 1299  git status
+ 1300  cd ..
+ 1301  git status
+ 1302  git pull
+ 1303  git status
+ 1304  git add Lyndon.hs graph1.hs lists1.hs test6.hs learnyouahaskell/outputB.hs
+ 1305  git status
+ 1306  git add backwards/backwards.html 
+ 1307  git add learnyouahaskell/outputB.html 
+ 1308  git status
+ 1309  git push
+ 1310  git status
+ 1311  git commit -m "after compose 2017"
+ 1312  git push
+ 1313  git status
+ 1314  git pull
+ 1315  git status
+ 1316  gitk &
+ 1317  git add todo.txt src/calculator/CalculatorMIDlet.java src/calculator/pythagoreantriplet.java 
+ 1318  git status
+ 1319  cat FPDemo.pro 
+ 1320  git add FPDemo.pro 
+ 1321  git status
+ 1322  gedit .gitignore &
+ 1323  git status
+ 1324  git commit -m "prep for pushing"
+ 1325  git status
+ 1326  gitk &
+ 1327  ls -lctrh
+ 1328  tree
+ 1329  git status
+ 1330  cd ..
+ 1331  tree
+ 1332  cd ../../../../..
+ 1333  cd ~/j2mewtk
+ 1334  git status
+ 1335  cd ~/
+ 1336  git clone https://github.com/MatrixMike/DanceView.git
+ 1337  cd DanceView/
+ 1338  tree
+ 1339  stack install && stack sdist
+ 1340  hpack
+ 1341  stack sdist
+ 1342  stack install hpack
+ 1343  hpack 
+ 1344  stack install 
+ 1345  hpack 
+ 1346  tree
+ 1347  gedit &
+ 1348  cd ~/Linux-tricks-and-tips/
+ 1349  git pull
+ 1350  git status
+ 1351  git config --global color.ui auto
+ 1352  git status
+ 1353  git pull
+ 1354  ls -lctrh
+ 1355  tree learning/
+ 1356  ls -lctrh
+ 1357  git pull
+ 1358  ls -lctrh
+ 1359  cd helm/
+ 1360  ls -lctrh
+ 1361  sudo apt-get uninstall openjdk-7
+ 1362  sudo apt-get remove openjdk-7
+ 1363  sudo apt-get remove openjdk-8
+ 1364  stack new Androidish
+ 1365  tree
+ 1366  stack build
+ 1367  tree
+ 1368  cat Androidish/Androidish.cabal 
+ 1369  git pull
+ 1370  ls -lctrh
+ 1371  ./outputB 
+ 1372  cd ..
+ 1373  ls -lctrh
+ 1374  ./systemInterOp 
+ 1375  cat tips2.txt 
+ 1376  mv tips2.txt tips3.txt 
+ 1377  git pull
+ 1378  ls -lctrh
+ 1379  gedit tips2.txt &
+ 1380  git status
+ 1381  gitk   &
+ 1382  cat tips2.txt 
+ 1383  cat tips3.txt 
+ 1384  git status
+ 1385  git add tips2.txt 
+ 1386  git add tips3.txt 
+ 1387  git commit -m "added lein stuff"
+ 1388  git push
+ 1389  cd ~/Linux-tricks-and-tips/
+ 1390  gedit tips2.txt &
+ 1391  git status
+ 1392  git add tips2.txt 
+ 1393  git commit -m "added lein stuff2"
+ 1394  git push
+ 1395  cd ..
+ 1396  git pull
+ 1397  ls -lctrh
+ 1398  rm Lyndon
+ 1399  ls -lctrh
+ 1400  rm *.o *.hi
+ 1401  ls -lctrh
+ 1402  git pull
+ 1403  ls -lctrh
+ 1404  git stack
+ 1405  git status
+ 1406  ls -lctrh
+ 1407  git status
+ 1408  stack --version
+ 1409  ls -lctrh
+ 1410  rm Lyndon.hi
+ 1411  ls -lctrh
+ 1412  rm Lyndon.o 
+ 1413  ls -lctrh
+ 1414  git status
+ 1415  git pull
+ 1416  ls -lctrh
+ 1417  rm Lyndon.o
+ 1418  git pull
+ 1419  gedit .gitignore &
+ 1420  git status
+ 1421  git add .gitignore Lyndon.hs SQL1.hs && git commit -m "tinkering"
+ 1422  git push
+ 1423  git status
+ 1424  stack --help
+ 1425  stack --version
+ 1426  stack --help | lpr -P HL-2040-series
+ 1427  stack list-dependencies
+ 1428  stack runghc
+ 1429  cd ~/
+ 1430  git clone https://github.com/MatrixMike/plissken.git
+ 1431  cd plissken/
+ 1432  stack build
+ 1433  ls -lctrh
+ 1434  cat plissken.cabal 
+ 1435  stack install cabal-install
+ 1436  cabal --version
+ 1437  ghc --version
+ 1438  cabal --version
+ 1439  cd ~/
+ 1440  mkdir ghc821
+ 1441  cd ghc821/
+ 1442  mv ~/Downloads/ghc-8.2.1-x86_64-deb8-linux.tar.xz .
+ 1443  tar -xvf ghc-8.2.1-x86_64-deb8-linux.tar.xz 
+ 1444  ls -lc
+ 1445  cd ghc-8.2.1/
+ 1446  ls -lc
+ 1447  ./configure 
+ 1448  make install
+ 1449  sudo make install
+ 1450  ghc-8.2.1 --version
+ 1451  cd ~/
+ 1452  git clone https://github.com/MatrixMike/hours.git
+ 1453  cd hours/
+ 1454  stack build
+ 1455  ghc-8.2.1 --version
+ 1456  stack install
+ 1457  hours 
+ 1458  hours start
+ 1459  hours 
+ 1460  hours calc
+ 1461  hours 
+ 1462  hours start
+ 1463  stack install
+ 1464  hours start
+ 1465  hours stop
+ 1466  hours calc
+ 1467  hours calc 1
+ 1468  hours start
+ 1469  git status
+ 1470  git add src/Main.hs && git commit -m "following hlint suggestions"
+ 1471  git push
+ 1472  tree
+ 1473  stack sdist
+ 1474  hours start
+ 1475  tree
+ 1476  cat 2017-09-06-AEST.yaml 
+ 1477  ls -lc
+ 1478  cat stack.yaml 
+ 1479  gedit stack.yaml 
+ 1480  stack install
+ 1481  ls -lc
+ 1482  stack install
+ 1483  git pull
+ 1484  stack install
+ 1485  ls -lctrh
+ 1486  cat hours.cabal 
+ 1487  cat stack.yaml 
+ 1488  gedit stack.yaml &
+ 1489  stack install
+ 1490  hours start
+ 1491  hours stop
+ 1492  ls -lctrh
+ 1493  thunar --version
+ 1494  thunar &
+ 1495  cd ~/ghc
+ 1496  cd ~/
+ 1497  ls -lctrh
+ 1498  ls Downloads/
+ 1499  ls Downloads/ -lctrh
+ 1500  ical-org --version
+ 1501  ical-org ~/Downloads/Haskell+Hack+Nite+-+_HASKNITE_+-+MHUG.ics haskell1.out
+ 1502  ls -lctrh
+ 1503  cat haskell1.out 
+ 1504  ghc --version
+ 1505  stack install
+ 1506  cd ~/
+ 1507  ls -lc
+ 1508  cd Haskell/
+ 1509  ls -lc
+ 1510  cd learnyouahaskell/
+ 1511  ls -lc
+ 1512  cd ~/proplang/
+ 1513  ls -lc
+ 1514  cat README.md 
+ 1515  stack build
+ 1516  cd ~/
+ 1517  ls -lc
+ 1518  cd plissken/
+ 1519  ls -lc
+ 1520  stack build
+ 1521  cd ~/
+ 1522  ls -lc
+ 1523  cd ~/euler-haskell/
+ 1524  ls -lctrh
+ 1525  cd ~/Haskell/
+ 1526  ls -lc
+ 1527  ls -lctrh
+ 1528  git status
+ 1529  ./lists1 
+ 1530  git status
+ 1531  git add lists1.hs && git commit -m "after upgrade to ghc8.2.1"
+ 1532  git push
+ 1533  git pull
+ 1534  git push
+ 1535  cd helm/
+ 1536  ls -lctrh
+ 1537  cat helmHelp.txt 
+ 1538  ghc --version
+ 1539  cd ~/
+ 1540  git clone https://github.com/MatrixMike/DanceView.git
+ 1541  cd DanceView/
+ 1542  ls -lctrh
+ 1543  stack build
+ 1544  stack upgrade --git
+ 1545  stack --version
+ 1546  ghc --version
+ 1547  df -h
+ 1548  cd ~/hs-fresnel/
+ 1549  ls -lc
+ 1550  cp stackSeq.sh ~/stackHaskelltest/
+ 1551  cp stackSeq.sh ~/DanceView/
+ 1552  cp stackSeq.sh ~/hs-fresnel-asn1/
+ 1553  cp stackSeq.sh ~/line-size/
+ 1554  cd ~/
+ 1555  git clone https://github.com/MatrixMike/hs-fresnel-asn1.git
+ 1556  cd hs-fresnel-asn1/
+ 1557  tree
+ 1558  ./stackSeq.sh 
+ 1559  cd ~/
+ 1560  git clone https://github.com/MatrixMike/line-size.git
+ 1561  cd line-size/
+ 1562  tree
+ 1563  ./stackSeq.sh 
+ 1564  tree
+ 1565  ls -lctrh
+ 1566  rm Main MainCont
+ 1567  ls -lctrh
+ 1568  stack build
+ 1569  tree
+ 1570  stack sdist
+ 1571  cabal check
+ 1572  stack build
+ 1573  stack clean
+ 1574  stack build
+ 1575  stack install
+ 1576  line-size 
+ 1577  ./stackSeq.sh 
+ 1578  git status
+ 1579  git add stackSeq.sh && git commit -m "my build tool"
+ 1580  git push
+ 1581  cd ~/csv-conduit/
+ 1582  tree
+ 1583  git pull
+ 1584  tree
+ 1585  stack build
+ 1586  git status
+ 1587  cd ~/Haskell/zippers/
+ 1588  ls -lctrh
+ 1589  rm *.o *.hi *.html
+ 1590  ls -lctrh
+ 1591  cd ..
+ 1592  ls -lctrh
+ 1593  tree
+ 1594  git status
+ 1595  git add zippers/tree1.hs  && git commit -m "trying to print tree"
+ 1596  git push
+ 1597  cd zippers/
+ 1598  tree
+ 1599  git status
+ 1600  gitk &
+ 1601  cd ~/
+ 1602  ls -lc
+ 1603  mkdir eca3d
+ 1604  cd eca3d/
+ 1605  git init
+ 1606  gedit riprap.h &
+ 1607  ls lc
+ 1608  ls -lc
+ 1609  cat riprap.h 
+ 1610  git add riprap.h 
+ 1611  git commit -m "start of idea"
+ 1612  gitk &
+ 1613  git status
+ 1614  git commit -m "start of idea 2"
+ 1615  git add riprap.h 
+ 1616  git commit -m "start of idea 2"
+ 1617  gitk &
+ 1618  cd ~/Haskell/
+ 1619  gitk &
+ 1620  cd testmh/
+ 1621  git pull && stack install
+ 1622  testmh
+ 1623  whereis testmh
+ 1624  whereis testmh-exe
+ 1625  testmh-exe
+ 1626  ls -lctrh
+ 1627  ull && stack install
+ 1628  hlint --version
+ 1629  ls -lctrh
+ 1630  git status
+ 1631  testmh
+ 1632  cd ~/Haskell/
+ 1633  ls -lctrh
+ 1634  cat BinariesVersionCheck.sh 
+ 1635  git  pull
+ 1636  cat BinariesVersionCheck.sh 
+ 1637  cd ~/hours/
+ 1638  ls -lctrh
+ 1639  git status
+ 1640  git add stackSeq.sh src/Main.html BinariesVersionCheck.sh && git commit -m "for debugging"
+ 1641  git push
+ 1642  ls -lctrh
+ 1643  cat stack.yaml 
+ 1644  cd ~/hours/
+ 1645  git pull && stack install
+ 1646  ls -lctrh
+ 1647  rm 2017-09-06-AEST.yaml 
+ 1648  ls -lctrh
+ 1649  git pull && stack install
+ 1650  cp ~/Haskell/BinariesVersionCheck.sh .
+ 1651  ./BinariesVersionCheck.sh 
+ 1652  cat BinariesVersionCheck.sh 
+ 1653  cp ~/Haskell/BinariesVersionCheck.sh .
+ 1654  ./BinariesVersionCheck.sh 
+ 1655  ls -lctrh
+ 1656  tree
+ 1657  git  status
+ 1658  hlint --version
+ 1659  ./BinariesVersionCheck.sh 
+ 1660  cp ~/Haskell/BinariesVersionCheck.sh .
+ 1661  ./BinariesVersionCheck.sh 
+ 1662  git pull && stack install && ./BinariesVersionCheck.sh 
+ 1663  ghci 
+ 1664  gedit wtf1.hs &
+ 1665  ls -lctrh
+ 1666  ./wtf1 
+ 1667  geany & 
+ 1668  ls -lctrh
+ 1669  ./wtf1 
+ 1670  git status
+ 1671  git add wtf1.hs fade.html && git commit -m "spam catcher trac"
+ 1672  git status
+ 1673  git push
+ 1674  git status
+ 1675  ls -lca
+ 1676  tree
+ 1677  ls -lca
+ 1678  ls .git/ -lca
+ 1679  ls ~/Haskell/.gitignore
+ 1680  cat ~/Haskell/.gitignore
+ 1681  cp  ~/Haskell/.gitignore .
+ 1682  ls -lca
+ 1683  git status
+ 1684  gedit .gitignore &
+ 1685  git add .gitignore && git commit -m "
+ 1686  git add .gitignore && git commit -m "mmm"
+ 1687  git push
+ 1688  git pull
+ 1689  git push
+ 1690  git pull && stack install && ./BinariesVersionCheck.sh 
+ 1691  git pull
+ 1692  ifconfig 
+ 1693  git pull
+ 1694  cd ~/
+ 1695  git clone https://github.com/MatrixMike/clj-trek.git
+ 1696  cd clj-trek/
+ 1697  lein uberjar 
+ 1698  tree
+ 1699  lein uberjar 
+ 1700  tree
+ 1701  cd src/trek/
+ 1702  grep upda *.cj
+ 1703  grep upda *.clj
+ 1704  sudo shutdown -r now
+ 1705  evince 
+ 1706  ifconfig 
+ 1707  l s-lc
+ 1708  ls -lc
+ 1709  ./stackSeq.sh 
+ 1710  ls -lc
+ 1711  salmon 
+ 1712  dmesg | more
+ 1713  dmesg | grep X.509
+ 1714  dmesg | more
+ 1715  dmesg | grep b43
+ 1716  network-admin -h
+ 1717  network-admin 
+ 1718  network-admin --help-all
+ 1719  network-admin -c
+ 1720  network-admin -t
+ 1721  tree
+ 1722  stack install
+ 1723  ls -lc
+ 1724  gpredict
+ 1725  cd amarks/
+ 1726  tree
+ 1727  git status
+ 1728  lein uberjar 
+ 1729  java -jar target/helloworld-1.0.1-SNAPSHOT-standalone.jar 
+ 1730  tree
+ 1731  lein uberjar 
+ 1732  java -jar target/helloworld-1.0.1-SNAPSHOT-standalone.jar 
+ 1733  lein uberjar 
+ 1734  java -jar target/helloworld-1.0.1-SNAPSHOT-standalone.jar 
+ 1735  lein uberjar 
+ 1736  java -jar target/helloworld-1.0.1-SNAPSHOT-standalone.jar 
+ 1737  git status
+ 1738  git add src/helloworld/core.clj && git commit -m "add date"
+ 1739  cd ~/
+ 1740  ls -lc
+ 1741  uname -a
+ 1742  lsb_release -a
+ 1743  df -h
+ 1744  cd ~/
+ 1745  git clone https://github.com/MatrixMike/fractals.git
+ 1746  cd fractals/
+ 1747  tree
+ 1748  ./stackSeq.sh 
+ 1749  ./BinariesVersionCheck.sh 
+ 1750  stack config set system-ghc --global true
+ 1751  git status
+ 1752  ./stackSeq.sh 
+ 1753  fractalbp 
+ 1754  ls -lctrh
+ 1755  git status
+ 1756  gedit installTips1.txt &
+ 1757  git status
+ 1758  git add installTips1.txt && git commit -m "To use your system GHC installation"
+ 1759  git push
+ 1760  ls -lctrh
+ 1761  git pull && stack install
+ 1762  fractalbp 
+ 1763  ls -lctrh
+ 1764  git pull && stack install
+ 1765  git pull && stack install && fractalbp
+ 1766  git status
+ 1767  git add src/Main.hs && git commit -m "patterns"
+ 1768  git push
+ 1769  git pull && stack install && fractalbp
+ 1770  git pull
+ 1771  cd ~/clojure
+ 1772  git pull && ls -lctrh
+ 1773  mv stringeye/src/stringeye/core.clj stringeye/src/stringeye/core1.clj 
+ 1774  git pull && ls -lctrh
+ 1775  cd stringeye/
+ 1776  clojure --version
+ 1777  clojure
+ 1778  df -h
+ 1779  lein uberjar 
+ 1780  tree
+ 1781  java -jar target/stringeye-0.1.3-SNAPSHOT-standalone.jar 
+ 1782  clojure --version
+ 1783  lein version
+ 1784  git add src/Main.hs && git commit -m "patterns"
+ 1785  git add src/stringeye/core1.clj && git commit -m "patterns"
+ 1786  git status
+ 1787  git push
+ 1788  lein clean && lein uberjar
+ 1789  cd ../bikegears/
+ 1790  lein clean && lein uberjar
+ 1791  ls -lctrh
+ 1792  tree
+ 1793  ghc-pkg   list
+ 1794  git pull && stack install && fractalbp
+ 1795  ls -lctrh
+ 1796  evince  image*
+ 1797  ristretto image*.png
+ 1798  ristretto image*.png &
+ 1799  tree
+ 1800  lein
+ 1801  cd ..
+ 1802  git pull && ls -lctrh
+ 1803  cd pelicans/
+ 1804  lein clean && lein uberjar
+ 1805  java -jar target/pelicans-0.1.1-SNAPSHOT-standalone.jar 
+ 1806  git status
+ 1807  cd ../stackoverflow/
+ 1808  tree
+ 1809  lein clean && lein uberjar
+ 1810  tree
+ 1811  cd ~/
+ 1812  cd hours/
+ 1813  git pull
+ 1814  ./BinariesVersionCheck.sh 
+ 1815  stack install
+ 1816  cat stack.yaml 
+ 1817  cd ~/
+ 1818  ls -lc
+ 1819  cd stackHaskelltest/
+ 1820  cat stack.yaml 
+ 1821  stack build
+ 1822  stack install
+ 1823  stackHaskelltest-exe 
+ 1824  tree
+ 1825  cat stack.yaml 
+ 1826  cd ~/hours/
+ 1827  cat stack.yaml 
+ 1828  cat ~/stackHaskelltest/stack.yaml 
+ 1829  stack build
+ 1830  ls -lctrh
+ 1831  ls ~/stackHaskelltest/  -lctrh
+ 1832  cat ~/stackHaskelltest/stackHaskelltest.cabal 
+ 1833  ls -lctrh
+ 1834  git pull
+ 1835  ./BinariesVersionCheck.sh 
+ 1836  cabal init
+ 1837  git status
+ 1838  stack build
+ 1839  git status
+ 1840  git add LICENSE stack.yaml wtf1.hs && git commit -m "after cabal init"
+ 1841  cat hours.cabal
+ 1842  git add LICENSE stack.yaml hours.cabal && git commit -m "after cabal init"
+ 1843  git status
+ 1844  git add ChangeLog.md.save0 LICENSE.save0 Setup.hs.save1 && git commit -m "after cabal init 2"
+ 1845  git status
+ 1846  stack build
+ 1847  ghc-pkg list
+ 1848  stack 
+ 1849  stack list-dependencies
+ 1850  ghc-pkg list
+ 1851  cabal update
+ 1852  history 
+ 1853  history > history1.txt
+ 1854  cabal update
+ 1855  history > history1.txt
+ 1856  cabal update
+ 1857  stack build
+ 1858  stack clean && stack build
+ 1859  cabal update
+ 1860  stack clean && stack build
+ 1861  git status
+ 1862  git add hours.cabal stack.yaml && git commit -m "tweaking to build"
+ 1863  git status
+ 1864  stack clean && stack build
+ 1865  stack
+ 1866  cabal
+ 1867  cabal --help
+ 1868  cabal install Data.Text
+ 1869  cabal install Data
+ 1870  cabal update
+ 1871  hours 
+ 1872  stack clean && stack build
+ 1873  stack list-dependencies
+ 1874  ghc-pkg list
+ 1875  stack clean && stack build
+ 1876  stack list-dependencies
+ 1877  ghc-pkg list
+ 1878  stack clean && stack build
+ 1879  ls -lctrh
+ 1880  git status
+ 1881  git add hours.cabal stack.yaml 2017-09-07-AEST.yaml && git commit -m "tweaking - need insight into .cabal files"
+ 1882  git status
+ 1883  git push
+ 1884  cabal
+ 1885  cabal --version
+ 1886  cabal --help
+ 1887  cabal update
+ 1888  ./BinariesVersionCheck.sh 
+ 1889  stack clean && stack build
+ 1890  cabal --help
+ 1891  cabal configure
+ 1892  git status
+ 1893  ls -lctrh
+ 1894  ls dist/
+ 1895  tree
+ 1896  git status
+ 1897  git add hours.cabal stack.yaml dist/ && git commit -m "after cabal configure"
+ 1898  stack clean && stack build
+ 1899  gitk &
+ 1900  cabal update
+ 1901  cabal --help
+ 1902  cabal init
+ 1903  git status
+ 1904  cat ChangeLog.md
+ 1905  stack clean && stack build
+ 1906  git status
+ 1907  git add hours.cabal ChangeLog.md && git commit -m "after cabal configure 2"
+ 1908  git status
+ 1909  git push
+ 1910  cd ~/Linux-tricks-and-tips/
+ 1911  git pull
+ 1912  cat tips2.txt 
+ 1913  curl  "https://get.sdkman.io" | bash 
+ 1914  sdk 
+ 1915  sdk list
+ 1916  sdk install leiningen
+ 1917  lein
+ 1918  lein version
+ 1919  sdk install JBake
+ 1920  cd ~/clojure
+ 1921  lein clean && lein uberjar
+ 1922  tree
+ 1923  cd stringeye/
+ 1924  lein clean && lein uberjar
+ 1925  cloju
+ 1926  tree
+ 1927  java -jar target/stringeye-0.1.3-SNAPSHOT-standalone.jar 
+ 1928  java -jar target/stringeye-0.1.3-SNAPSHOT-standalone.jar &
+ 1929  cd ~/fractals/
+ 1930  tree
+ 1931  ls -lctrh
+ 1932  ./BinariesVersionCheck.sh 
+ 1933  ./stackSeq.sh 
+ 1934  cd ~/stackHaskelltest/
+ 1935  ls -lctrh
+ 1936  git pull && ./stackSeq.sh 
+ 1937  stackHaskelltest
+ 1938  ifconfig 
+ 1939  ls -lctrh
+ 1940  cat stackSeq.sh 
+ 1941  git pull
+ 1942  ifconfig 
+ 1943  git pull
+ 1944  ifconfig 
+ 1945  dmesg | more
+ 1946  ifconfig 
+ 1947  git pull
+ 1948  ls -lctrh
+ 1949  ./BinariesVersionCheck.sh 
+ 1950  ./stackSeq.sh 
+ 1951  ifconfig 
+ 1952  ping 172.20.10.8
+ 1953  ifconfig 
+ 1954  cd ~/
+ 1955  cd ghc821/
+ 1956  ls -lc
+ 1957  scp ghc-8.2.1-x86_64-deb8-linux.tar.xz   mikeh@192.168.0.2:/mikeh/home/ghc821
+ 1958  pwd
+ 1959  scp ghc-8.2.1-x86_64-deb8-linux.tar.xz   mikeh@192.168.0.2:/mikeh/phyllis/ghc821
+ 1960  scp ghc-8.2.1-x86_64-deb8-linux.tar.xz   mikeh@192.168.0.2:/home/phyllis/ghc821
+ 1961  sudo scp ghc-8.2.1-x86_64-deb8-linux.tar.xz   mikeh@192.168.0.2:/home/phyllis/ghc821
+ 1962  sudo scp ghc-8.2.1-x86_64-deb8-linux.tar.xz   phyllis@192.168.0.2:/home/phyllis/ghc821
+ 1963  cabal
+ 1964  whereis cabal
+ 1965  cd ~/
+ 1966  ls -lc
+ 1967  cd cabalExamples
+ 1968  ls -lc
+ 1969  cat Setup.hs 
+ 1970  cat test1.cabal 
+ 1971  ls -lctrh
+ 1972  cd ~/WOW/
+ 1973  ls -lctrh
+ 1974  gedit slackers.txt &
+ 1975  uptime 
+ 1976  rh
+ 1977  tree
+ 1978  gitk &
+ 1979  git pull
+ 1980  ./buildit.sh 
+ 1981  gitk &
+ 1982  cabal --version
+ 1983  whereis cabal 
+ 1984  ls -lctrh
+ 1985  tree
+ 1986  cd ~/
+ 1987  ls -lc
+ 1988  df -h
+ 1989  cd hindent/
+ 1990  git pull
+ 1991  ls -lctrh
+ 1992  cat README.md 
+ 1993  ls -lctrh
+ 1994  cp ~/line-size/stackSeq.sh .
+ 1995  ls -ifconfig 
+ 1996  cal
+ 1997  cd ~/
+ 1998  git clone https://github.com/MatrixMike/case-conversion.git
+ 1999  cd case-conversion/
+ 2000  ./stackSeq.sh 
+ 2001  case-converter 
+ 2002  hlint --version
+ 2003  ./BinariesVersionCheck.sh 
+ 2004  git status
+ 2005  ls -lctrh
+ 2006  git status
+ 2007  ./stackSeq.sh 
+ 2008  case-converter 
+ 2009  ./stackSeq.sh 
+ 2010  case-converter 
+ 2011  case-converter  < "OneTwo"
+ 2012  case-converter  < 'OneTwo'
+ 2013  ls -lctrh
+ 2014  case-converter  < caseTest.txt 
+ 2015  git status
+ 2016  git ad tests/Main.hs Text/CaseConversion.hs && git commit -m "signatures" && git psh
+ 2017  git add tests/Main.hs Text/CaseConversion.hs && git commit -m "signatures" && git psh
+ 2018  git add tests/Main.hs Text/CaseConversion.hs && git commit -m "signatures" && git push
+ 2019  git pull
+ 2020  git push
+ 2021  ghci
+ 2022  main :: IO (Counts, ShowS)
+ 2023  ghci
+ 2024  cabal install case-conversion
+ 2025  history > history1.txt
