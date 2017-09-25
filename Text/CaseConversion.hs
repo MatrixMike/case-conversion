@@ -21,32 +21,40 @@ data WordCase
   | Snake
   | Spinal
 
---toCase :: Camel = toCamelCase
+toCase :: WordCase -> [[Char]] -> [Char]
 toCase Camel = toCamelCase
 toCase Snake = toSnakeCase
 toCase Spinal = toSpinalCase
 
+fromCase :: WordCase -> String -> [String]
 fromCase Camel = fromCamelCase
 fromCase Snake = fromSnakeCase
 fromCase Spinal = fromSpinalCase
 
+toCamelCase :: [[Char]] -> [Char]
 toCamelCase (c:cs) = concat (c : map (\(c:cs) -> toUpper c : map toLower cs) cs)
 
+toSnakeCase :: [[Char]] -> [Char]
 toSnakeCase = toCharacterCase '_'
 
+toSpinalCase :: [[Char]] -> [Char]
 toSpinalCase = toCharacterCase '-'
 
 --fromCamelCase :: [Char] -> [[Char]]
 fromCamelCase :: String -> [String]
 fromCamelCase = splitBy isUpper
 
+fromSnakeCase :: [Char] -> [[Char]]
 fromSnakeCase = fromCharacterCase '_'
 
+fromSpinalCase :: [Char] -> [[Char]]
 fromSpinalCase = fromCharacterCase '-'
 
+toCharacterCase :: Char -> [[Char]] -> [Char]
 toCharacterCase c cs = intercalate [c] (map (map toLower) cs)
 
---toCharacterCase c cs = concat (intersperse [c] (map (map toLower) cs))
+--fromCharacterCase c cs = concat (intersperse [c] (map (map toLower) cs))
+fromCharacterCase :: Eq p => p -> [p] -> [[p]]
 fromCharacterCase c cs = head' ++ map tail tail'
   where
     (head', tail') = splitAt 1 cs'
