@@ -1,3 +1,18 @@
 https://en.wikipedia.org/wiki/Camel_case
 
+*Text.CaseConversion> fromCamelCase "onTojK"
+["on","Toj","K"]
+*Text.CaseConversion> fromCamelCase "onTo%jK"
+["on","To%j","K"]
+*Text.CaseConversion> fromNewCase  "onTo%jK"
+["onTo","jK"]
+*Text.CaseConversion> 
+convertCase :: WordCase -> WordCase -> String -> String
+*Text.CaseConversion> convertCase Camel Snake "OneTwoThree"
+"one_two_three"
+*Text.CaseConversion> toCharacterCase '-' ["vb-hj"]
+"vb-hj"
+*Text.CaseConversion> toCharacterCase '=' ["vb-hj"]
+"vb-hj"
+*Text.CaseConversion> 
 
