@@ -11,6 +11,8 @@ module Text.CaseConversion
   , fromSnakeCase
   , fromSpinalCase
   , convertCase
+  , toCharacterCase
+  , fromNewCase
   ) where
 
 import Data.Char
@@ -47,7 +49,10 @@ fromCamelCase = splitBy isUpper
 fromSnakeCase :: [Char] -> [[Char]]
 fromSnakeCase = fromCharacterCase '_'
 
-fromSpinalCase :: [Char] -> [[Char]]
+fromNewCase :: [Char] -> [[Char]]
+fromNewCase = fromCharacterCase '%'
+
+fromSpinalCase :: String -> [String]
 fromSpinalCase = fromCharacterCase '-'
 
 toCharacterCase :: Char -> [[Char]] -> [Char]
